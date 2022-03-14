@@ -1,4 +1,4 @@
-package com.gabriel.strconsumer.config;
+package com.gabriel.str.consumer.config;
 
 import java.util.HashMap;
 
@@ -29,7 +29,7 @@ public class StringConsumerConfig {
 	}
 
 	@Bean
-	public ConcurrentKafkaListenerContainerFactory<String, String> strConsumerFactory(ConsumerFactory<String, String> consumerFactory) {
+	public ConcurrentKafkaListenerContainerFactory<String, String> strContainerFactory(ConsumerFactory<String, String> consumerFactory) {
 		ConcurrentKafkaListenerContainerFactory<String, String> factory = new ConcurrentKafkaListenerContainerFactory<String, String>();
 		factory.setConsumerFactory(consumerFactory);
 		return factory;

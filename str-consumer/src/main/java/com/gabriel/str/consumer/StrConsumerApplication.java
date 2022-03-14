@@ -1,4 +1,4 @@
-package com.gabriel.strconsumer;
+package com.gabriel.str.consumer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
